@@ -3,6 +3,15 @@
 
     margin: 0%;
     font-family: 'Georgia', Times, Times New Roman, serif;
+    
+}
+
+html, body {
+    height: 100%;
+}
+body {
+    margin:0px;
+    padding: 0px;
 }
 
 a:link {
@@ -31,6 +40,7 @@ li
 
 
 
+
 .right li
 {
 
@@ -39,17 +49,26 @@ li
 
 }
 
+.left li
+{
+    padding-left: 30px;
+    position: fixed;
+
+
+}
+
 
 .right
 {
 
     position: static;
-
+    display: inline-block;
     float: right;
     margin-right: 380px;
     line-height: 80px;
     height: 80px;
     padding-left: 80px;
+    white-space: nowrap;
 
 
 
@@ -57,6 +76,8 @@ li
 }
 .left
 {
+
+    color: white;
     font-size: 30px;
     display: inline-block;
     width: 240px;
@@ -108,3 +129,93 @@ img{
     padding-left: 20px;
 
 }
+
+.footercontact {
+    position: relative;
+    left: 0;
+    bottom: 0px;
+    width: 100%;
+    background-color: #666666;
+    text-align: center;
+    height: 60px;
+}
+
+.footerindex {
+    position: fixed;
+    left: 0;
+    bottom: 0px;
+    width: 100%;
+    background-color: #666666;
+    text-align: center;
+    height: 60px;
+}
+
+.footertext
+{
+
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contacttext
+{
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 30px;
+}
+
+.forms
+{
+    padding-top: 20px;
+    padding-left: 20px;
+
+}
+.input1
+{
+
+    width: 900px;
+    height: 30px;
+
+}
+
+.input2
+{
+
+    width: 900px;
+    height: 30px;
+
+}
+
+.input3
+{
+
+    width: 900px;
+    height: 350px;
+
+}
+.contactform
+{
+
+      width: 960px;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: #66ffff;   
+    line-height: 40px; 
+    height: 750px;
+    margin-bottom: 60px;
+    
+}
+
+.button {
+    background-color: rgb(47, 156, 138);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 20px;
+    margin-top: 15px;
+    cursor: pointer;
+  }
