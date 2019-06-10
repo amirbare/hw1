@@ -1,0 +1,302 @@
+*
+{
+
+    margin: 0%;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    
+}
+
+html, body {
+    height: 100%;
+}
+body {
+    margin:0px;
+    padding: 0px;
+}
+
+a:link {
+    text-decoration: none;
+  }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: cyan;
+    width: 100%;
+    height: 80px;
+
+  }
+
+
+li
+
+{
+    
+    
+
+    display: inline;
+
+}
+
+
+
+
+.right li
+{
+
+    padding-left: 30px;
+    
+
+}
+
+.left li
+{
+    padding-left: 30px;
+    position: fixed;
+
+
+}
+
+
+.right
+{
+
+    position: static;
+    display: inline-block;
+    float: right;
+    margin-right: 380px;
+    line-height: 80px;
+    height: 80px;
+    padding-left: 80px;
+    white-space: nowrap;
+
+
+
+
+}
+.left
+{
+
+    color: white;
+    font-size: 30px;
+    display: inline-block;
+    width: 240px;
+    line-height: 80px;
+
+    height: 80px;
+    border: 1px solid #000;
+    text-align: center;
+    background-color: brown;
+    margin-left : 360px;
+
+}
+
+.about{
+
+
+    width: 960px;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: #66ffff;   
+    line-height: 40px; 
+}
+
+.abouttext
+{
+    padding-top: 30px;
+    padding-left: 20px;
+    font-size: 30px;
+}
+
+hr{
+
+    border-top: 1px solid red;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.imgface{
+
+
+    float: left;
+    margin-top: 10px;
+    padding-right: 20px;
+}
+.p1{
+
+    margin-top: 40px;
+    padding-left: 20px;
+
+}
+
+.footercontact {
+    position: relative;
+    left: 0;
+    bottom: 0px;
+    width: 100%;
+    background-color: #666666;
+    text-align: center;
+    height: 60px;
+}
+
+.footerindex {
+    position: fixed;
+    left: 0;
+    bottom: 0px;
+    width: 100%;
+    background-color: #666666;
+    text-align: center;
+    height: 60px;
+}
+
+.footertext
+{
+
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contacttext
+{
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 30px;
+}
+
+.forms
+{
+    padding-top: 20px;
+    padding-left: 20px;
+
+}
+.input1
+{
+
+    width: 900px;
+    height: 30px;
+
+}
+
+.input2
+{
+
+    width: 900px;
+    height: 30px;
+
+}
+
+.input3
+{
+
+    width: 900px;
+    height: 350px;
+
+}
+.contactform
+{
+
+      width: 960px;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: #66ffff;   
+    line-height: 40px; 
+    height: 750px;
+    margin-bottom: 60px;
+    
+}
+
+.button {
+    background-color: rgb(47, 156, 138);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 20px;
+    margin-top: 15px;
+    cursor: pointer;
+  }
+.game
+{
+
+    width: 300px;
+    float: left;
+    position: relative;
+    margin: 20px;
+    height: 300px;
+
+}
+
+.car
+{
+    float: left;
+    position: relative;
+    width: 300px;
+    height: 300px;
+
+    margin: 20px;
+
+}
+.code
+{
+    float: left;
+    position: relative;
+    height: 300px;
+
+    width: 300px;
+    margin: 20px;
+
+
+    
+}
+.stock
+{
+    float: left;
+    position: relative;
+    height: 300px;
+
+    width: 300px;
+    margin: 20px;
+
+
+    
+}
+
+.sail
+{
+    float: left;
+    position: relative;
+    height: 300px;
+
+    width: 300px;
+    margin: 20px;
+
+
+    
+}
+
+
+.portimages{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+
+.portfolioform
+{
+
+      width: 960px;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: #66ffff;   
+    line-height: 40px; 
+    height: 1100px;
+    margin-bottom: 60px;
+    
+}
+  
+ 
