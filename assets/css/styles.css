@@ -116,7 +116,7 @@ hr{
 
 }
 
-img{
+.imgface{
 
 
     float: left;
@@ -219,3 +219,84 @@ img{
     margin-top: 15px;
     cursor: pointer;
   }
+.game
+{
+
+    width: 300px;
+    float: left;
+    position: relative;
+    margin: 20px;
+    height: 300px;
+
+}
+
+.car
+{
+    float: left;
+    position: relative;
+    width: 300px;
+    height: 300px;
+
+    margin: 20px;
+
+}
+.code
+{
+    float: left;
+    position: relative;
+    height: 300px;
+
+    width: 300px;
+    margin: 20px;
+
+
+    
+}
+.stock
+{
+    float: left;
+    position: relative;
+    height: 300px;
+
+    width: 300px;
+    margin: 20px;
+
+
+    
+}
+
+.sail
+{
+    float: left;
+    position: relative;
+    height: 300px;
+
+    width: 300px;
+    margin: 20px;
+
+
+    
+}
+
+
+.portimages{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+
+.portfolioform
+{
+
+      width: 960px;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: #66ffff;   
+    line-height: 40px; 
+    height: 1100px;
+    margin-bottom: 60px;
+    
+}
+  
+ 
