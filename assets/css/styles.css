@@ -1,0 +1,58 @@
+*
+{
+
+    margin: 0%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: cyan;
+    width: 100%;
+    height: 80px;
+
+  }
+
+
+li
+
+{
+    
+
+    display: inline;
+
+}
+
+.right li
+{
+
+    padding-left: 80px;
+
+}
+.right
+{
+
+    float: right;
+    margin-right: 300px;
+    line-height: 80px;
+    height: 80px;
+    padding-left: 80px;
+
+
+
+
+}
+.left
+{
+    font-size: 30px;
+    display: inline-block;
+width: 240px;
+line-height: 80px;
+
+height: 80px;
+border: 1px solid #000;
+text-align: center;
+    background-color: brown;
+    margin-left : 300px;
+
+}
